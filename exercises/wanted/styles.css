@@ -1,0 +1,85 @@
+html, body {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    background-image: url(https://cdn.discordapp.com/attachments/425918574847066115/629152156985065483/paperBG.jpg);
+    background-color: rgb(216, 210, 190);
+    color: rgb(46, 44, 42);
+    text-align: center
+}
+
+div {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.hr1 {
+    border-top: 5px solid rgb(46, 44, 42);
+    padding: 0px;
+    margin: 0px;
+}
+
+.hr2 {
+    border-top: 3px solid rgb(46, 44, 42);
+}
+
+.hr3 {
+    border-top: 2px solid rgb(46, 44, 42);
+}
+
+p {
+    line-height: 5px;
+}
+
+img {
+    width: 42%;
+}
+
+.smallAvenir {
+    font-family: -apple-system, 'Avenir Next Condensed', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+.giantGeorgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 550%;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.bigGeorgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.bigAvenir {
+    font-family: -apple-system, 'Avenir Next Condensed', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+.tinyAvenir {
+    font-family: -apple-system, 'Avenir Next Condensed', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+.smallGeorgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+.courier {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 140%;
+    text-transform: uppercase;
+
+}
+
+/* avenir next condensed    for tall
+Georgia for oldie small
+Georgia bold
+/* courier regular  for bottom left 

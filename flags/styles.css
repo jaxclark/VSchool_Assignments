@@ -1,0 +1,530 @@
+html, body {
+    background-color: rgb(218, 218, 218);
+
+}
+
+.France {
+    display: inline-block;
+}
+
+.France1 {
+    background-color: rgb(0, 0, 226);
+    width: 40px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.France2 {
+    background-color: white;
+    width: 40px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.France3 {
+    background-color: red;
+    width: 40px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.Germany {
+    display: inline-block;
+}
+
+.Germany1 {
+    background-color: black;
+    width: 120px;
+    height: 26.6px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.Germany2 {
+    background-color: red;
+    width: 120px;
+    height: 26.6px;
+    margin-left: 30px;
+}
+
+.Germany3 {
+    background-color: rgb(255, 196, 0);
+    width: 120px;
+    height: 26.6px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.Madagascar {
+    display: inline-block;
+}
+
+.MadSide {
+    display: inline-block
+}
+
+.Mad1 {
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.Mad2 {
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.Mad3 {
+    background-color: rgb(0, 119, 36);
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.Swiss {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Swiss1 {
+    background-color: red;
+    height: 80px;
+    width: 120px; 
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.Swiss2 {
+    background-color: white;
+    position: absolute;
+    top: 38px;
+    left: 550px;
+    height: 59px;
+    width: 22px;
+
+}
+
+.Swiss3 {
+    background-color: white;
+    position: absolute;
+    top: 57px;
+    left: 531px;
+    height: 22px;
+    width: 59px;
+
+}
+
+.row2 {
+    position: absolute;
+    top: 142px;
+    left: 37px;
+}
+
+.Sweden1 {
+    background-color: #006aa7;
+    height: 80px;
+    width: 120px;
+
+}
+
+.Sweden2 {
+    position: absolute;
+    top: 31px;
+    background-color: #fecc00;
+    height: 18px;
+    width: 120px;
+
+}
+
+.Sweden3 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-color: #fecc00;
+    height: 80px;
+    width: 18px;
+
+}
+
+.Gambia {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+}
+
+.Gambia1 {
+    background-color: rgb(218, 0, 36);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 26.6px;
+    width: 120px;
+}
+
+.Gambia2 {
+    background-color: white;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    height: 5px;
+    width: 120px;
+}
+
+.Gambia3 {
+    background-color: rgb(16, 0, 165);
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    height: 17px;
+    width: 120px;
+}
+
+.Gambia4 {
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    height: 5px;
+    width: 120px;
+}
+
+.Gambia5 {
+    background-color: rgb(0, 107, 0);
+    position: absolute;
+    top: 53px;
+    left: 0px;
+    height: 26.6px;
+    width: 120px;
+}
+
+.Tonga {
+    position: absolute;
+    top: 0px;
+    left: 309px;
+}
+
+.Tonga1 {
+    background-color: rgb(212, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 120px;
+}
+
+.Tonga2 {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 37px;
+    width: 50px;
+}
+
+.Tonga3 {
+    background-color: rgb(212, 0, 0);
+    position: absolute;
+    top: 8px;
+    left: 21px;
+    height: 22px;
+    width: 8px;
+}
+
+.Tonga4 {
+    background-color: rgb(212, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    height: 8px;
+    width: 22px;
+}
+
+.Japan {
+    position: absolute;
+    top: 0px;
+    left: 463px;
+}
+
+.Japan1 {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 120px;
+}
+
+.Japan2 {
+    background-color: red;
+    position: absolute;
+    top: 17px;
+    left: 37px;
+    height: 46px;
+    width: 46px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+.row3 {
+    position: absolute;
+    top: 257px;
+    left: 37px;
+}
+
+.Greece {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.Greece1 {
+    background-color: #0d5eaf;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 120px;
+}
+
+.Greece2 {
+    background-color: white;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    height: 8.8px;
+    width: 120px;
+}
+
+.Greece3 {
+    background-color: white;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    height: 8.7px;
+    width: 120px;
+}
+
+.Greece4 {
+    background-color: white;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    height: 8.8px;
+    width: 120px;
+}
+
+.Greece5 {
+    background-color: white;
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    height: 8.7px;
+    width: 120px;
+}
+
+.Greece6 {
+    background-color: #0d5eaf;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 45px;
+    width: 45px;
+}
+
+.Greece7 {
+    background-color: white;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    height: 8.7px;
+    width: 45px;
+}
+
+.Greece8 {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    height: 45px;
+    width: 8.7px;
+}
+
+.Niger {
+    position: absolute;
+    top: 0px;
+    left: 155px;
+}
+
+.Niger1 {
+    background-color: rgb(233, 85, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 26.6px;
+    width: 120px;
+}
+
+.Niger2 {
+    background-color: white;
+    position: absolute;
+    top: 26.7px;
+    left: 0px;
+    height: 26.6px;
+    width: 120px;
+}
+
+.Niger3 {
+    background-color: rgb(0, 163, 0);
+    position: absolute;
+    top: 53px;
+    left: 0px;
+    height: 26.6px;
+    width: 120px;
+}
+
+.Niger4 {
+    background-color: rgb(233, 85, 0);
+    position: absolute;
+    top: 29px;
+    left: 49px;
+    height: 22px;
+    width: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 85, 0);
+    border-radius: 100%;
+}
+
+.Maldives {
+    position: absolute;
+    top: 0px;
+    left: 309px;
+}
+
+.Mal1 {
+    background-color: rgb(241, 0, 40);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 120px;
+}
+
+.Mal2 {
+    background-color: rgb(0, 110, 28);
+    position: absolute;
+    top: 18px;
+    left: 21px;
+    height: 44px;
+    width: 80px;
+}
+
+.Mal3 {
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 49px;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.Mal4 {
+    background-color: rgb(0, 110, 28);
+    position: absolute;
+    top: 25px;
+    left: 54px;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 110, 28);
+    border-radius: 100%;
+}
+
+.Belize {
+    position: absolute;
+    top: 0px;
+    left: 463px;
+}
+
+.Bel1 {
+    background-color: rgb(209, 0, 28);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 120px;
+}
+
+.Bel2 {
+    background-color: rgb(28, 52, 160);
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    height: 60px;
+    width: 120px;
+}
+
+.Bel3 {
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.Bel4 {
+    background-color: rgb(53, 37, 13);
+    position: absolute;
+    top: 18px;
+    left: 38px;
+    height: 44px;
+    width: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgb(53, 37, 13);
+    border-radius: 100%;
+}
+
+.Bel5 {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.Bel6 {
+    background-color: rgb(63, 165, 23);
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border: 4px solid white;
+    border-radius: 100%;
+}
+
