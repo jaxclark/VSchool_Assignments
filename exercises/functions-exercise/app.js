@@ -41,34 +41,37 @@
 // console.log(strings(stringName))
 
 // //BONUS 1
-// var total = 0
-// const fibNums = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
-// function fibSeq(n) {
-//     for(let i = 0; i < n; i++) {
-//         total += fibNums[i]
-//         console.log(total)
-//     }
-// }
-// fibSeq(6)
+var total = 0
+const fibNums = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]
+function fibSeq(n) {
+    for(let i = 0; i < n; i++) {
+        total += fibNums[i]
+        console.log(total)
+    }
+}
+fibSeq(6)
 
 // //BONUS 2
 
-const charObject = {
+// const charObject = {
 
-}
-function stringLetters(string) {
-    for(let i = 0; i < string.length; i++) {
-        if (charObject.hasOwnProperty(string.indexOf(i))) {
-            charObject.string.indexOf(i) += 1
-        } else {
-            charObject.string.indexOf(i) 
-        }
-    }
-}
-stringLetters("Hello world")
-console.log(charObject)
+// }
+// function stringLetters(string) {
+//     for(let i = 0; i < string.length; i++) {
+//         if (charObject.hasOwnProperty(string.indexOf(i))) {
+//             charObject.string.indexOf(i) += 1
+//         } else {
+//             charObject.string.indexOf(i) 
+//         }
+//     }
+// }
+// stringLetters("Hello world")
+// console.log(charObject)
 
-
+//Can you use a splice to remove the smaller of two items in an array? 
+//if [i] < [whatever], array.splice(i)
+// .splice(startingIndex, numberToRemove[, itemsToInsert])
+// or since array will be filled with letters, compare if the letters are the same, and if they are keep them?
 
 
 

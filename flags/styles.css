@@ -3,127 +3,125 @@ html, body {
 
 }
 
-.France {
-    display: inline-block;
+.row1 {
+    position: absolute;
+    top: 37px;
+    left: 37px;
 }
 
-.France1 {
+.france {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+}
+
+.france1 {
     background-color: rgb(0, 0, 226);
     width: 40px;
     height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    display: inline-block;
+    position: absolute;
 }
 
-.France2 {
+.france2 {
     background-color: white;
     width: 40px;
     height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
+    position: absolute;
+    left: 40px;
 }
 
-.France3 {
+.france3 {
     background-color: red;
     width: 40px;
     height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
+    position: absolute;
+    left: 80px;
 }
 
-.Germany {
-    display: inline-block;
+.germany {
+    position: absolute;
+    left: 155px;
+
 }
 
-.Germany1 {
+.germany1 {
     background-color: black;
     width: 120px;
     height: 26.6px;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 
-.Germany2 {
+.germany2 {
     background-color: red;
     width: 120px;
     height: 26.6px;
-    margin-left: 30px;
 }
 
-.Germany3 {
+.germany3 {
     background-color: rgb(255, 196, 0);
     width: 120px;
     height: 26.6px;
-    margin-bottom: 20px;
-    margin-left: 30px;
 }
 
-.Madagascar {
-    display: inline-block;
+.madagascar {
+    position: absolute;
+    left: 309px;
 }
 
-.MadSide {
-    display: inline-block
-}
-
-.Mad1 {
+.mad1 {
     background-color: rgb(255, 255, 255);
     width: 40px;
     height: 80px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    display: inline-block;
+    position: absolute;
+
 }
 
-.Mad2 {
+.mad2 {
     background-color: red;
     width: 80px;
     height: 40px;
-    margin-top: 20px;
+    position: absolute;
+    left: 40px;
 }
 
-.Mad3 {
+.mad3 {
     background-color: rgb(0, 119, 36);
     width: 80px;
     height: 40px;
-    margin-bottom: 20px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
 }
 
-.Swiss {
-    display: inline-block;
-    vertical-align: top;
+.swiss {
+    position: absolute;
+    left: 463px;
 }
 
-.Swiss1 {
+.swiss1 {
     background-color: red;
     height: 80px;
-    width: 120px; 
-    margin-top: 20px;
-    margin-left: 30px;
+    width: 80px; 
+    position: relative;
+    left: 20px;
 }
 
-.Swiss2 {
+.swiss2 {
     background-color: white;
     position: absolute;
-    top: 38px;
-    left: 550px;
-    height: 59px;
-    width: 22px;
+    top: 16px;
+    left: 53px;
+    height: 50px;
+    width: 15px;
 
 }
 
-.Swiss3 {
+.swiss3 {
     background-color: white;
     position: absolute;
-    top: 57px;
-    left: 531px;
-    height: 22px;
-    width: 59px;
+    top: 33px;
+    left: 35px;
+    height: 15px;
+    width: 50px;
 
 }
 
@@ -133,14 +131,14 @@ html, body {
     left: 37px;
 }
 
-.Sweden1 {
+.sweden1 {
     background-color: #006aa7;
     height: 80px;
     width: 120px;
 
 }
 
-.Sweden2 {
+.sweden2 {
     position: absolute;
     top: 31px;
     background-color: #fecc00;
@@ -149,7 +147,7 @@ html, body {
 
 }
 
-.Sweden3 {
+.sweden3 {
     position: absolute;
     top: 0px;
     left: 40px;
@@ -159,13 +157,13 @@ html, body {
 
 }
 
-.Gambia {
+.gambia {
     position: absolute;
     top: 0px;
     left: 155px;
 }
 
-.Gambia1 {
+.gambia1 {
     background-color: rgb(218, 0, 36);
     position: absolute;
     top: 0px;
@@ -174,7 +172,7 @@ html, body {
     width: 120px;
 }
 
-.Gambia2 {
+.gambia2 {
     background-color: white;
     position: absolute;
     top: 27px;
@@ -183,7 +181,7 @@ html, body {
     width: 120px;
 }
 
-.Gambia3 {
+.gambia3 {
     background-color: rgb(16, 0, 165);
     position: absolute;
     top: 32px;
@@ -192,7 +190,7 @@ html, body {
     width: 120px;
 }
 
-.Gambia4 {
+.gambia4 {
     background-color: white;
     position: absolute;
     top: 48px;
@@ -201,7 +199,7 @@ html, body {
     width: 120px;
 }
 
-.Gambia5 {
+.gambia5 {
     background-color: rgb(0, 107, 0);
     position: absolute;
     top: 53px;
@@ -210,13 +208,13 @@ html, body {
     width: 120px;
 }
 
-.Tonga {
+.tonga {
     position: absolute;
     top: 0px;
     left: 309px;
 }
 
-.Tonga1 {
+.tonga1 {
     background-color: rgb(212, 0, 0);
     position: absolute;
     top: 0px;
@@ -225,7 +223,7 @@ html, body {
     width: 120px;
 }
 
-.Tonga2 {
+.tonga2 {
     background-color: white;
     position: absolute;
     top: 0px;
@@ -234,7 +232,7 @@ html, body {
     width: 50px;
 }
 
-.Tonga3 {
+.tonga3 {
     background-color: rgb(212, 0, 0);
     position: absolute;
     top: 8px;
@@ -243,7 +241,7 @@ html, body {
     width: 8px;
 }
 
-.Tonga4 {
+.tonga4 {
     background-color: rgb(212, 0, 0);
     position: absolute;
     top: 15px;
@@ -252,13 +250,13 @@ html, body {
     width: 22px;
 }
 
-.Japan {
+.japan {
     position: absolute;
     top: 0px;
     left: 463px;
 }
 
-.Japan1 {
+.japan1 {
     background-color: white;
     position: absolute;
     top: 0px;
@@ -267,7 +265,7 @@ html, body {
     width: 120px;
 }
 
-.Japan2 {
+.japan2 {
     background-color: red;
     position: absolute;
     top: 17px;
@@ -285,13 +283,13 @@ html, body {
     left: 37px;
 }
 
-.Greece {
+.greece {
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-.Greece1 {
+.greece1 {
     background-color: #0d5eaf;
     position: absolute;
     top: 0px;
@@ -300,7 +298,7 @@ html, body {
     width: 120px;
 }
 
-.Greece2 {
+.greece2 {
     background-color: white;
     position: absolute;
     top: 9px;
@@ -309,7 +307,7 @@ html, body {
     width: 120px;
 }
 
-.Greece3 {
+.greece3 {
     background-color: white;
     position: absolute;
     top: 27px;
@@ -318,7 +316,7 @@ html, body {
     width: 120px;
 }
 
-.Greece4 {
+.greece4 {
     background-color: white;
     position: absolute;
     top: 45px;
@@ -327,7 +325,7 @@ html, body {
     width: 120px;
 }
 
-.Greece5 {
+.greece5 {
     background-color: white;
     position: absolute;
     top: 63px;
@@ -336,7 +334,7 @@ html, body {
     width: 120px;
 }
 
-.Greece6 {
+.greece6 {
     background-color: #0d5eaf;
     position: absolute;
     top: 0px;
@@ -345,7 +343,7 @@ html, body {
     width: 45px;
 }
 
-.Greece7 {
+.greece7 {
     background-color: white;
     position: absolute;
     top: 18px;
@@ -354,7 +352,7 @@ html, body {
     width: 45px;
 }
 
-.Greece8 {
+.greece8 {
     background-color: white;
     position: absolute;
     top: 0px;
@@ -363,40 +361,40 @@ html, body {
     width: 8.7px;
 }
 
-.Niger {
+.niger {
     position: absolute;
     top: 0px;
     left: 155px;
 }
 
-.Niger1 {
+.niger1 {
     background-color: rgb(233, 85, 0);
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 10px;
     height: 26.6px;
-    width: 120px;
+    width: 100px;
 }
 
-.Niger2 {
+.niger2 {
     background-color: white;
     position: absolute;
     top: 26.7px;
-    left: 0px;
+    left: 10px;
     height: 26.6px;
-    width: 120px;
+    width: 100px;
 }
 
-.Niger3 {
+.niger3 {
     background-color: rgb(0, 163, 0);
     position: absolute;
     top: 53px;
-    left: 0px;
+    left: 10px;
     height: 26.6px;
-    width: 120px;
+    width: 100px;
 }
 
-.Niger4 {
+.niger4 {
     background-color: rgb(233, 85, 0);
     position: absolute;
     top: 29px;
@@ -408,13 +406,13 @@ html, body {
     border-radius: 100%;
 }
 
-.Maldives {
+.maldives {
     position: absolute;
     top: 0px;
     left: 309px;
 }
 
-.Mal1 {
+.mal1 {
     background-color: rgb(241, 0, 40);
     position: absolute;
     top: 0px;
@@ -423,7 +421,7 @@ html, body {
     width: 120px;
 }
 
-.Mal2 {
+.mal2 {
     background-color: rgb(0, 110, 28);
     position: absolute;
     top: 18px;
@@ -432,7 +430,7 @@ html, body {
     width: 80px;
 }
 
-.Mal3 {
+.mal3 {
     background-color: white;
     position: absolute;
     top: 25px;
@@ -444,7 +442,7 @@ html, body {
     border-radius: 100%;
 }
 
-.Mal4 {
+.mal4 {
     background-color: rgb(0, 110, 28);
     position: absolute;
     top: 25px;
@@ -456,13 +454,13 @@ html, body {
     border-radius: 100%;
 }
 
-.Belize {
+.belize {
     position: absolute;
     top: 0px;
     left: 463px;
 }
 
-.Bel1 {
+.bel1 {
     background-color: rgb(209, 0, 28);
     position: absolute;
     top: 0px;
@@ -471,7 +469,7 @@ html, body {
     width: 120px;
 }
 
-.Bel2 {
+.bel2 {
     background-color: rgb(28, 52, 160);
     position: absolute;
     top: 10px;
@@ -480,7 +478,7 @@ html, body {
     width: 120px;
 }
 
-.Bel3 {
+.bel3 {
     background-color: white;
     position: absolute;
     top: 15px;
@@ -492,7 +490,7 @@ html, body {
     border-radius: 100%;
 }
 
-.Bel4 {
+.bel4 {
     background-color: rgb(53, 37, 13);
     position: absolute;
     top: 18px;
@@ -504,19 +502,7 @@ html, body {
     border-radius: 100%;
 }
 
-.Bel5 {
-    background-color: white;
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    height: 40px;
-    width: 40px;
-    box-sizing: border-box;
-    border: 1px solid white;
-    border-radius: 100%;
-}
-
-.Bel6 {
+.bel5 {
     background-color: rgb(63, 165, 23);
     position: absolute;
     top: 20px;

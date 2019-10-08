@@ -1,0 +1,79 @@
+html, body {
+    background-color: rgb(148, 196, 168)
+}
+.navBar {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    height: 20%;
+    width: 90%;
+    background-color: rgb(207, 207, 207);
+    margin-top: -5%;
+    margin-left: -45%;
+    box-sizing: border-box;
+    border: 9px solid white;
+    border-radius: 12%;
+    text-align: center;
+    color: rgb(35, 56, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 450%;
+    z-index: 1;
+}
+
+/* div {
+    height: 800px;
+    width: 50px;
+} */
+
+.feed {
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    color: rgb(35, 56, 44)
+}
+
+img {
+    margin: 7%;
+    height: auto;
+    width: 300px;
+}
+
+.post1 {
+    background-color: rgb(230, 230, 230);
+    height: 320px;
+    width: 360px;
+    position: relative;
+    top: 250px;
+    left: 32%;
+
+}
+
+.post2 {
+    background-color: rgb(230, 230, 230);
+    height: 320px;
+    width: 360px;
+    position: relative;
+    top: 250px;
+    left: 32%;
+
+}
+
+.post3 {
+    background-color: rgb(230, 230, 230);
+    height: 320px;
+    width: 360px;
+    position: relative;
+    top: 250px;
+    left: 32%;
+
+}
+
+.post4 {
+    background-color: rgb(230, 230, 230);
+    height: 320px;
+    width: 360px;
+    position: relative;
+    top: 250px;
+    left: 32%;
+
+}
