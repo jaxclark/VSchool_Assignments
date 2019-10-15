@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+        <h1>Travel Details</h1>
+            <form name="travelForm">
+                <b>Name</b>
+                <br>
+                <input type="text" name="firstName" placeholder="First Name">
+                <input type="text" name="lastName" placeholder="Last Name">
+                <br>
+                <br>
+                <b>Age</b>
+                <br>
+                <input type="number" name="age" placeholder="Age">
+                <br>
+                <br>
+                <b>Gender</b>
+                <br>
+                <input value="male" type="radio" name="gender">Male 
+                <input value="female" type="radio" name="gender">Female 
+                <input value="transgender" type="radio" name="gender">Transgender 
+                <input value="nonBinary" type="radio" name="gender">Non Binary 
+                <input value="other" type="radio" name="gender">Other 
+                <br>
+                <br>
+                <b>Destination</b>
+                <br>
+                <select name="destination">
+                    <option value="0">Fukuoka, Japan</option>
+                    <option value="1">Bangkok, Thailand</option>
+                    <option value="2">Casablanca, Morocco</option>
+                </select>
+                <br>
+                <br>
+                <b>Dietary Restrictions</b>
+                <br>
+                <input value="vegetarian" name="diet" type="checkbox">Vegetarian 
+                <input value="vegan" name="diet" type="checkbox">Vegan 
+                <input value="kosher" name="diet" type="checkbox">Kosher 
+                <input value="gluten" name="" type="checkbox">Gluten Free 
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

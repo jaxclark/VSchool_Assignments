@@ -1,0 +1,41 @@
+html, body {
+    background-color: rgb(185, 211, 211);
+    font-size: 20px;
+    color: black;
+}
+
+.add {
+    margin: 6%;
+}
+
+.sub {
+    margin: 6%;
+}
+
+.mult {
+    margin: 6%;
+}
+
+input {
+    height: 30px;
+    width: 130px;
+    padding: 10px;
+}
+
+input[type="number"] {
+    font-size: 20px;
+    background-color: rgb(222, 233, 225)
+}
+
+div {
+    margin-left: 10%;
+}
+
+button[type="submit"]{
+    margin-left: 2%;
+    padding: 1.3%;
+    background-color: rgb(158, 166, 175);
+    font-size: 14px;
+    border: 2px solid rgb(158, 166, 175);
+    border-radius: 8%
+}
