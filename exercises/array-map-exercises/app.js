@@ -29,15 +29,10 @@ console.log(newArray) // [4, 10, 200]
 // }
 // const strings = nums.map(stringItUp)
 
-// const strings = []
+const stringItUp = nums.map(number => number + "")
 
-// nums.map(function() {
-//     for (let i = 0; i < nums.length; i++) {
-//         strings.push(String(nums[i]))
-//     }
-// })
+console.log(stringItUp); // ["2", "5", "100"]
 
-// console.log(strings); // ["2", "5", "100"]
 
 
 // #3
