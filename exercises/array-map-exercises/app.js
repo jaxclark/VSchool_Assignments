@@ -37,14 +37,14 @@ console.log(newArray) // [4, 10, 200]
 //     }
 // })
 
-console.log(strings); // ["2", "5", "100"]
+// console.log(strings); // ["2", "5", "100"]
 
 
 // #3
 
-function capitalizeNames(arr){
+// function capitalizeNames(arr){
     // your code here
-}
+// }
 
-console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"])); 
+// console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"])); 
 // ["John", "Jacob", "Jingleheimer", "Schmidt"]
