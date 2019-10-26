@@ -1,0 +1,43 @@
+{
+    "appetizers" : [
+        { "name":"pakora", 
+            "main ingredients":["onions","potatoes","gram flour"], 
+            "descripton": "is a fried vegetable snack originating from India"},
+        { "name":"samosa", 
+            "main ingredients":["maida", "potatoes", "onions"], 
+            "descripton":"a fried or baked pastry with savoury filling" } 
+    ],
+
+    "cold sandwhiches" : [
+        { "name": "ham and cheese", 
+            "main ingredients":["bread", "cheese", "ham"], 
+            "description": "a basic sandwich for basic people"},
+        { "name" : "peanut butter and jelly",
+            "main ingredients":["bread", "peanut butter", "jelly"],
+            "description": "an excellent sandwhich for people who aren't basic"}
+    ],
+
+    "hot sandwhiches" : [
+        { "name": "french dip",
+            "main ingredients":["baguette", "roast beef", "au jus"],
+            "description": "a delicious American invention, despite it's name, referring to the French style of bread"},
+        { "name": "Philly cheese steak",
+            "main ingredients":["hoagie roll", "cheese", "beefsteak"],
+            "description": "a popular hot sub sandwhich originating from Philadelphia, PA, USA"}
+    ],
+
+    "desserts" : [
+        { "name": "cheesecake",
+            "main ingredients":["cream cheese", "crust", "sugar"],
+            "description": "a sweet desssert consisting of one or more layers, the main layer being a mixture of soft cheese, sugar, and eggs"},
+        { "name": "baklava", 
+            "main ingredients":["filo dough, nuts, honey"],
+            "description":"a rich, layered pasty from the Middle East"}
+    ],
+
+    "drinks" : [
+        { "name": "lemonade",
+            "main ingredients":["lemon juice, sugar, water"],
+            "description":"a popular drink in the USA made from lemon juice"}
+    ]
+}

@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Kaiti TC, Optima, 'Times New Roman', Times, serif;
+}
+
+@media all {    
+    body {
+        background-image: url("background.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .container {
+        height: 100%;
+        width: 90%;
+        background-color: white;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 410px auto 85px 127px 90px 150px;
+        grid-gap: 2px;
+
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 170px;
+        width: 90%;
+
+        background-color: #f4f8f1;
+        z-index: 10;
+    }
+
+    #logo {
+        align-items: start;
+        padding-left: 26px;
+        padding-top: 20px;
+        height: 130px;
+        width: auto;
+        /* font : Kaiti SC */
+    }
+
+    .headerButtons {
+        align-items: end;
+        padding-top: 78px;
+        font-size: 20px;
+    }
+
+    a {
+        color: #141414;
+        height: 30px;
+        /* width: auto; */
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #306846;
+    }
+
+    .login {
+        position: relative;
+        top: 169px;
+        left: 0;
+        height: 40px;
+        width: 100%;
+        /* background-color: #ffffff; */
+        display: grid;
+        grid-template-columns: 190px auto 30px 70px;
+        padding-top: 18px;
+        align-items: center;
+        margin: auto;
+    }
+
+    #logIn {
+        padding-left: 30px;
+        align-items: start;
+    }
+
+    #cart {
+        align-items: end;
+        height: 20px;
+        width: auto;
+    }
+
+    .empty {
+        height: 500px;
+        width: 100%;
+    }
+
+    .sidebar {
+
+    }
+
+    .content {
+        height: 1000px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .featured {
+        position: relative;
+        top: 190px;
+        left: 11px;
+        align-items: center;
+        width: 690px;
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 10px 30px 350px 10px 30px 350px 10px ;
+        grid-gap: 5px;
+
+        height: 600px;
+
+        background-color: #ffffff;
+        z-index: 5;
+
+    }
+
+    #featH2 {
+        grid-column: 1/-1;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .featSpace {
+        grid-column: 1/-1;
+        height: 100px;
+        width: 200px;
+    }
+
+    .featured > img {
+        height: 320px;
+        width: 320px;
+    }
+
+    .productName {
+        text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+
+        display: grid;
+        grid-template-columns: 300px auto 100px auto 100px;
+        grid-gap: 2px;
+
+        height: 170px;
+        width: 90%;
+
+        background-color: #f4f8f1;
+        z-index: 6;
+
+    }
+
+    #contact {
+        height: 45px;
+        width: 300px;
+        padding-top: 0px;
+        padding-left: 30px;
+        font-size: 26px;
+    }
+
+    #email {
+        padding: 5px;
+        margin-bottom: 14px;
+        border: 1px solid rgb(211, 211, 211);
+        width: 150px;
+    }
+
+    .facebook {
+        height: 77px;
+        width: 77px;
+    }
+
+    .instagram {
+        height: 80px;
+        width: 80px;
+    }
+
+    button {
+        height: 40px;
+        width: 70px;
+        background-color: white;
+    }
+}
+    
+    @media screen and (min-width: 1000px) {
+    
+        .newStock {
+            left: 540px;
+        }
+    
+        .frontPageHeader {
+            left: 210px;
+        }
+    }
+    
+    @media (min-width: 1055px) {
+    
+        .header {
+            height: 150px;
+        }
+    
+        #logo {
+            height: 110px;
+            width: auto;
+        }
+    
+        .headerButtons {
+            padding-top: 66px;
+        }
+    
+        .newStock {
+            left: 540px;
+        }
+    
+        .frontPageHeader {
+            left: 325px;
+        }
+    
+        .footer {
+            position: relative;
+            top: 480px;
+            height: 150px;
+            width: 100%;
+    
+        }
+    
+        .empty {
+            height: 200px;
+            width: 100%;
+        }
+
+        .featured {
+            top: 200px;
+            left: 30px;
+            width: 870px;
+            grid-template-rows: 350px 10px 45px 350px 10px 45px 350px 10px ;
+
+            grid-gap: 5px;
+    
+            height: 700px;
+    
+            background-color: #ffffff;
+            z-index: 5;
+    
+        }
+
+        .featured > img {
+            height: 350px;
+            width: 350px;
+        }
+
+        .productName {
+            height: 5px;
+            width: 370px;
+            text-align: center;
+        }
+    
+    } 
+    

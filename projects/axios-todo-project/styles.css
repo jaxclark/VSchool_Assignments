@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+    margin: auto;
+    font-family: Optima, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#list {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+input[type="number"] {
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 260px;
+    width: auto;
+    display: block;
+    margin: auto;
+}

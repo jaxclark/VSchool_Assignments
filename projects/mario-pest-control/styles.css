@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12vh 76vh 12vh;
+    color: white;
+    font-size: 25px;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: auto 100px 368px 100px auto;
+    background-color: rgb(224, 0, 0);
+    height: 100%;
+    font-size: 48px;
+    grid-gap: 20px;
+}
+
+.mario1 {
+    grid-column: 2/3;
+    background-image: url(mario2.png);
+    background-position: center center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+.marioSpan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mario2 {
+    grid-column: 4/5;
+    background-image: url(mario1.png);
+    background-position: center center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    background: url(mario_background2.png) ;
+    background-size: 100% auto;
+    display: grid;
+    grid-template-columns: 174px 150px 145px 100px 94px auto;
+    grid-auto-rows: auto;
+    background-color: burlywood;
+    color: white;
+}
+
+.goombaName {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 20px;
+}
+
+.kTroopaName {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 20px;
+}
+
+.spinyName {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-left: 20px;
+}
+
+.booName {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding-left: 20px;
+}
+
+.goombaImg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(https://i.pinimg.com/originals/b4/1b/e9/b41be93296e287347e9a5a564d679bbf.png);
+    /* background-size: cover; */
+    background-position: center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.kTroopaImg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60950273-2af3-40f9-b1a2-182686488d86/dajagn1-d91b1c71-e0a9-4fb7-9297-10c74210a4a5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwOTUwMjczLTJhZjMtNDBmOS1iMWEyLTE4MjY4NjQ4OGQ4NlwvZGFqYWduMS1kOTFiMWM3MS1lMGE5LTRmYjctOTI5Ny0xMGM3NDIxMGE0YTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Fz-ntsTlfkh8bnjosnBb_Hg7Jw0lIQj4uGgUIWqqr30);
+    /* background-size: cover; */
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.spinyImg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(https://www.mariowiki.com/images/8/83/PMCS_Big_Spiny.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.booImg {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-image: url(boo.png);
+    background-position: center center;
+    background-size: 72%;
+    background-repeat: no-repeat;
+}
+
+.content > input {
+    justify-self: center;
+    align-self: center;
+    height: 30px;
+    width: 80px;
+}
+
+form {
+    position: relative;
+    top: 45px;
+    grid-column: 3/4;
+    display: grid;
+    height: 10px;
+    width: 20px;
+    grid-template-columns: 150px 100px;
+    grid-template-rows: 116px 116px 109px 100px;
+    grid-gap: 20px;
+}
+
+input[type="number"] {
+    font-size: 15px;
+    padding-left: 0.7%;
+}
+
+.goombaIn {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 30px;
+}
+
+.kTroopaIn {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 30px;
+}
+
+.spinyIn {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 30px;
+}
+
+.booIn {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    height: 30px;
+}
+
+.booButton {
+    margin-top: 4px;
+    justify-self: start;
+    /* align-self: center; */
+    height: 28px;
+    width: 64px;
+    font-size: 14px;
+}
+
+.booButton {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.total {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    font-size: 24px;
+    align-self: center;
+    margin-top: 4px;
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.coin > img {
+    margin-right: 5px;
+    height: auto;
+    width: 30px;
+}
+
+#results {
+    grid-column: 6/7;
+    grid-row: 4/5;
+    align-self: center;
+    margin-top: 6px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(0, 0, 204);
+    font-size: 18px;
+
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    /* align-items: end; */
+    padding-left: 90px;
+    /* align-items: center; */
+}

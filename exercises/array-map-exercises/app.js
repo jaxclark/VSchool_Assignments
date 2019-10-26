@@ -29,17 +29,22 @@ console.log(newArray) // [4, 10, 200]
 // }
 // const strings = nums.map(stringItUp)
 
-const stringItUp = nums.map(number => number + "")
+// const strings = []
 
-console.log(stringItUp); // ["2", "5", "100"]
+// nums.map(function() {
+//     for (let i = 0; i < nums.length; i++) {
+//         strings.push(String(nums[i]))
+//     }
+// })
 
+console.log(strings); // ["2", "5", "100"]
 
 
 // #3
 
-// function capitalizeNames(arr){
+function capitalizeNames(arr){
     // your code here
-// }
+}
 
-// console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"])); 
+console.log(capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"])); 
 // ["John", "Jacob", "Jingleheimer", "Schmidt"]
