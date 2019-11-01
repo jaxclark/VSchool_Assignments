@@ -14,6 +14,11 @@ class DiceBox extends Component {
     }
 
     handleRand = () => {
+        // for(let i = 1; i < 7, i++){
+        //     let random = Math.floor(Math.random() * 6 + 1)
+        //     this.setState({(num+i): random1})
+
+        // }
         let random1 = Math.floor(Math.random() * 6 + 1)
         let random2 = Math.floor(Math.random() * 6 + 1)
         let random3 = Math.floor(Math.random() * 6 + 1)
