@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 7fr 1fr;
+  height: 100vh;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(205, 224, 241);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:link{
+  color: blue
+}
+
+a:visited{
+  color: red
+}
+
+a:hover{
+  color: green
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(205, 224, 241);
+  font-size: 20px;
+}
+
+.Home {
+  text-align: center;
+}
+
+.About {
+  text-align: center;
+}
+
+.Services {
+  text-align: center;
+}
+
+img {
+  height: 400px;
+}
+
+#star {
+  height: 80px;
+  display: inline-block;
+}
