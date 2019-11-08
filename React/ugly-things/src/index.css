@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+img {
+  height: 200px;
+}
+
+.submit {
+  background-color: cornflowerblue;
+  height: 26vh;
+  width: 100%;
+}
+
+.submitForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 13vh 13vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.submitForm > label {
+  padding: 20px;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.submitForm > label > input {
+  border: 1px solid grey;
+  border-radius: 4px;
+  height: 24px;
+  width: 170px;
+}
+
+.submitForm > button {
+  justify-self: center;
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  height: 24px;
+  width: 14%;
+
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.postOutside {
+  background-color: rgb(255, 220, 24);
+}
+
+.post {
+  justify-items: center;
+  text-align: center;
+}
+
+.post > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edit {
+  background-color: white;
+}
+
+.editForm {
+  display: grid;
+  justify-content: center;
+}
+
+.editForm > label {
+  padding: 20px;
+}
+
+.editForm > label > input {
+  display: block;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 20px;
+  width: 170px;
+}
+
+.editForm > button {
+  justify-self: center;
+  display: block;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 12px;
+  width: 100px;
+}
