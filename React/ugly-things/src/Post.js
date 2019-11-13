@@ -32,7 +32,7 @@ class Post extends React.Component {
                     <button onClick={this.handleDelete}>X</button>
                 </div>
                 : 
-                    <Form button='Save' type='update' toggle={this.toggle} id={this.props.id} title={this.props.title} description={this.props.description} image={this.props.image} post={this.props.info} toggle={this.toggle} />
+                    <Form button='Save' type='update' toggle={this.toggle} id={this.props.id} title={this.props.title} description={this.props.description} image={this.props.image} info={this.props.info} />
                 }
             </div>
         )

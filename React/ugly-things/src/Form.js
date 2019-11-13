@@ -7,15 +7,15 @@ class Form extends Component {
         super(props)
 
         this.state = {
-            title: props.title,
-            description: props.description,
-            image: props.image,
+            title: '',
+            description: '',
+            image: '',
         }
     }
 
     componentDidMount(){
         if(this.props.type === 'update'){
-            let {title, description, image} = this.props.post
+            let {title, description, image} = this.props.info
             this.setState({title, description, image})
         }
     }
