@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.bountiesContainer {
+  border: 5px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px
+}
+
+.bounty {
+  border: 10px solid black;
+  border-style: border-box;
+}
+
+.edit-bounty {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-bounty > button {
+  width: 10%;
+}
